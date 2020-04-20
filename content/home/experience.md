@@ -24,13 +24,7 @@ date_format = "Jan 2006"
   location = "Helsinki, Finland"
   date_start = "2017-03-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  description = """Risk prediction and data mining in metabolomics and computational medicine."""
 
 [[experience]]
   title = "Post-doctoral researcher"
@@ -43,8 +37,8 @@ date_format = "Jan 2006"
   
 [[experience]]
   title = "Graduate student"
-  company = "Laboratoire de Biochimie Théorique (CNRS)"
-  company_url = "http://www-lbt.ibpc.fr/"
+  company = "Sterpone Group, Laboratoire de Biochimie Théorique (CNRS)"
+  company_url = "https://sites.google.com/site/sterponefabio/"
   location = "Paris, France"
   date_start = "2011-10-01"
   date_end = "2014-09-30"

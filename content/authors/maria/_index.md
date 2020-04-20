@@ -13,7 +13,7 @@ education:
     institution: Université Paris Diderot / CNRS (France)
     year: 2014
   - course: MSc Mathematical Modelling in Modern Technologies and Economics
-    institution: National Technical Uniersity of Athens (Greece)
+    institution: National Technical University of Athens (Greece)
     year: 2011
   - course: BSc in Physics
     institution: National and Kapodistrian University of Athens (Greece)
@@ -30,6 +30,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/mariakalimeri
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://fi.linkedin.com/in/mkalime
 superuser: true
 title: "Maria Kalimeri"
 user_groups:
