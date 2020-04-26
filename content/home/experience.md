@@ -36,12 +36,12 @@ date_format = "Jan 2006"
   description = """Research on structure and dynamics of actin-binding proteins and their interaction with cell membranes."""
   
 [[experience]]
-  title = "Graduate student"
+  title = "Doctoral student"
   company = "Sterpone Group, Laboratoire de Biochimie Théorique (CNRS)"
   company_url = "https://sites.google.com/site/sterponefabio/"
   location = "Paris, France"
   date_start = "2011-10-01"
   date_end = "2014-09-30"
-  description = """Research on thermal stability of thermophilic proteins."""
+  description = """Research on thermal stability of thermophilic proteins. [Thesis](myLib/README.md)[here](myLib/README.md)"""
 
 +++

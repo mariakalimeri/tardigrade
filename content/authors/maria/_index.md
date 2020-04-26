@@ -6,7 +6,7 @@ interests:
 - Software development using R
 - Risk models for chronic diseases
 - Travelling home (to Greece)
-- Trolling around with my son
+- Goofing around with my son
 education:
   courses:
   - course: PhD in Computational Biophysics

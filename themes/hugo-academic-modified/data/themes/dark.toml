@@ -8,11 +8,11 @@ light = false
 primary = "hsl(203, 32%, 59%)"
 
 # Menu
-menu_primary = "rgb(20, 22, 34)"
+menu_primary = "rgb(21, 26, 30)"
 menu_text = "rgba(255,255,255,0.6)"
 menu_text_active = "rgba(255,255,255,1)"
 menu_title = "#fff"
 
 # Home sections
-home_section_odd = "hsla(231, 15%, 18%, 1)"
-home_section_even = "hsla(231, 15%, 16%, 1)"
+home_section_odd = "hsla(210, 18%, 20%, 1)"
+home_section_even = "hsla(210, 18%, 18%, 1)"
