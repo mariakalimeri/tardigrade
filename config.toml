@@ -38,12 +38,20 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[params]
+    author = "Maria Kalimeri"
+    
+[social]
+    github  = "https://github.com/mariakalimeri"
+    linkedin = "https://fi.linkedin.com/in/mkalime"
+    
 # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 [permalinks]
   authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
+  post = "/:year/:month/:day/:slug/"
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
@@ -79,6 +87,15 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+# Menu
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
 
 # Related content.
 [related]

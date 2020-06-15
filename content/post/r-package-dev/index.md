@@ -1,23 +1,19 @@
 ---
 authors:
-- admin
-categories:
-- Demo
-date: "2016-04-20T00:00:00Z"
+- maria
+date: "2020-06-15T00:00:00Z"
 draft: false
-featured: false
+featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
   focal_point: ""
   placement: 2
-  preview_only: false
-lastmod: "2019-04-17T00:00:00Z"
+  preview_only: true
 projects: []
-subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
-summary: Create a beautifully simple website in under 10 minutes.
+subtitle: 'Writing sharable (R) code. Uh… and sharing it! :rocket:'
+summary: A hands-on tutorial presented at R-Ladies (Helsinki)
 tags:
-- Academic
-title: 'Academic: the website builder for Hugo'
+- R package development
+title: 'Writing sharable (R) code. Uh… and sharing it!'
 ---
 
 **Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**

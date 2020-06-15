@@ -32,14 +32,14 @@
 
 {{ if $theme.light }}
   {{- $scr.Set "background" ($theme.background | default "#fff") -}}
-  {{- $scr.Set "dark_background" "rgb(42, 51, 60)" -}}
+  {{- $scr.Set "dark_background" "rgb(40, 42, 54)" -}}
   {{- $scr.Set "home_section_odd" $theme.home_section_odd -}}
   {{- $scr.Set "home_section_even" $theme.home_section_even -}}
-  {{- $scr.Set "dark_home_section_odd" "hsla(210, 18%, 20%, 1)" -}}
-  {{- $scr.Set "dark_home_section_even" "hsla(210, 18%, 18%, 1)" -}}
+  {{- $scr.Set "dark_home_section_odd" "hsla(231, 15%, 18%, 1)" -}}
+  {{- $scr.Set "dark_home_section_even" "hsla(231, 15%, 16%, 1)" -}}
 {{ else }}
   {{- $scr.Set "background" ($theme.background | default "#fff") -}}
-  {{- $scr.Set "dark_background" ($theme.background | default "rgb(42, 51, 60)") -}}
+  {{- $scr.Set "dark_background" ($theme.background | default "rgb(40, 42, 54)") -}}
   {{- $scr.Set "home_section_odd" "rgb(255, 255, 255)" -}}
   {{- $scr.Set "home_section_even" "rgb(247, 247, 247)" -}}
   {{- $scr.Set "dark_home_section_odd" $theme.home_section_odd -}}
