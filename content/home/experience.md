@@ -42,6 +42,6 @@ date_format = "Jan 2006"
   location = "Paris, France"
   date_start = "2011-10-01"
   date_end = "2014-09-30"
-  description = """Research on thermal stability of thermophilic proteins. [(Thesis link)](https://drive.google.com/file/d/0B12DgiTeqEVfTUxMc05QbjRZaGc/view)"""
+  description = """Research on thermal stability of thermophilic proteins. [(Thesis link)](files/thesisKalimeri.pdf)"""
 
 +++
