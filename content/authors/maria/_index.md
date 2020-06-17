@@ -2,10 +2,11 @@
 authors:
 - maria
 interests:
+- Software development (lately, mainly with R)
 - Data visualization
-- Software development (mainly with R)
 - Risk models for chronic diseases
-- Travelling home (to Greece)
+- Travelling home to Greece (I promise to keep biking to work till zero-emission 
+  planes are here)
 - Goofing around with my son
 education:
   courses:
@@ -42,9 +43,14 @@ user_groups:
 
 Hi there, 
 
-I am Maria and I build data analysis tools for living. I am based in Helsinki, 
+I am Maria and I am passionate about building data analysis tools. I am based in Helsinki, 
 Finland, and I work in Nightingale Health, a biotech company specializing in 
 blood biomarker analysis.
  
 In the past, I have done research in the fields of protein dynamics, 
-quantitative linguistics and preseismic electromagnetics.
+quantitative linguistics and preseismic electromagnetics (fields which may sound
+diverse but they do share common challenges, at least from the computational 
+point of view).
+
+I built this website using blogdown and Hugo and in the photo on the left I am 
+sitting in a forest somewhere in central Finland. 
