@@ -2,8 +2,8 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 10  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -43,5 +43,4 @@ date_format = "Jan 2006"
   date_start = "2011-10-01"
   date_end = "2014-09-30"
   description = """Research on thermal stability of thermophilic proteins. [(Thesis link)](https://drive.google.com/file/d/0B12DgiTeqEVfTUxMc05QbjRZaGc/view)"""
-
 +++
