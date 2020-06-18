@@ -43,14 +43,16 @@ user_groups:
 
 Hi there, 
 
-I am Maria and I am passionate about building data analysis tools. I am based in Helsinki, 
-Finland, and I work in Nightingale Health, a biotech company specializing in 
-blood biomarker analysis.
+I am Maria and I am passionate about building data analysis tools. I am based in 
+Helsinki, Finland, and I work in 
+[Nightingale Health](https://nightingalehealth.com/), a biotech company 
+specializing in blood biomarker analysis.
  
 In the past, I have done research in the fields of protein dynamics, 
 quantitative linguistics and preseismic electromagnetics (fields which may sound
 diverse but they do share common challenges, at least from the computational 
 point of view).
 
-I built this website using blogdown and Hugo and in the photo on the left I am 
+I built this website using the [blogdown](https://github.com/rstudio/blogdown) 
+R package and [Hugo](https://gohugo.io), and in the photo on the left I am 
 sitting in a forest somewhere in central Finland. 
