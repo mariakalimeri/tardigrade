@@ -21,9 +21,9 @@ than never.
 
 I have now been proudly working for 
 [Nightingale](https://nightingalehealth.com/) for more than 3 years. It's been 
-a place that combines intellectual curiosity and cosiness (usually 
+a place that combines intellectual curiosity and coziness (usually 
 found in academia - or well, a startup) with a great teamwork energy. 
-Nightingale is a Finnish biotech, scale-up company that has developped a 
+Nightingale is a Finnish biotech, scale-up company that has developed a 
 biomarker analysis platform using NMR technology. Having offered the service 
 for more than 7 years now to epidemiology research groups, the vision is to 
 bring the technology to everyone, in the form of individual testing, providing
