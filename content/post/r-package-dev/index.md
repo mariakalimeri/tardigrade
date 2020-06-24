@@ -9,7 +9,6 @@ image:
   placement: 2
   preview_only: true
 projects: []
-subtitle: 'Writing sharable (R) code. Uh… and sharing it! :rocket:'
 summary: A hands-on tutorial on building R packages (presented at R-Ladies, Helsinki)
 tags:
 - R package development
