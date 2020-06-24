@@ -32,7 +32,7 @@ diseases. (Have a look [here for Nightingale's blood test](https://nightingalehe
 
 Scientific research lies at the very core of Nightingale. This bit certainly 
 played its role for me, when moving from academia to a company, three years ago. 
-Faithful to its values, last year Nightingale offered some of it's data 
+Faithful to its values, last year Nightingale offered some of its data 
 visualization and analysis machinery to the broad audience. `ggforestplot` is an
 R package to visualize efficiently different types of association results. 
 
