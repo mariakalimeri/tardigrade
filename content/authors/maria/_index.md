@@ -49,9 +49,9 @@ Helsinki, Finland, and I work in
 specializing in blood biomarker analysis.
  
 In the past, I have done research in the fields of protein dynamics, 
-quantitative linguistics and preseismic electromagnetics (fields which may sound
+quantitative linguistics and preseismic electromagnetics. These fields may sound
 diverse but they do share common challenges, at least from the computational 
-point of view).
+point of view.
 
 I built this website using the [blogdown](https://github.com/rstudio/blogdown) 
 R package and [Hugo](https://gohugo.io), and in the photo on the left I am 
