@@ -10,8 +10,8 @@ image:
 readingtime: "55"
 tags:
 - R
-- Data visualization
-- Forestplot
+- data visualization
+- forestplot
 - Nightingale Health
 title: "An open source data visualization tool by Nightingale Health"
 subtitle: "And how it is to work for a vibrant, scale up company."

@@ -40,7 +40,11 @@ publishDate: "2017-01-01T00:00:00Z"
 summary: Proteins communicate with the plasma membrane using a fleeting or 
   sticky touch.
 tags:
-- Actin Binding Proteins
+- actin binding proteins
+- membrane-protein interactions
+- DPH anisotropy
+- molecular simulation
+- free energy calculations
 title: Mechanistic principles underlying regulation of the actin cytoskeleton 
   by phosphoinositides
 url_pdf: https://www.pnas.org/content/pnas/114/43/E8977.full.pdf
