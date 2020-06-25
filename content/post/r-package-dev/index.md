@@ -1,6 +1,4 @@
 ---
-authors:
-- maria
 date: "2019-04-05T00:00:00Z"
 draft: false
 featured: true

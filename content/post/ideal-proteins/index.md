@@ -1,6 +1,4 @@
 ---
-authors:
-- maria
 date: "2013-11-11T00:00:00Z"
 draft: false
 featured: true
