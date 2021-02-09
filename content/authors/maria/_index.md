@@ -2,9 +2,9 @@
 authors:
 - maria
 interests:
-- Software development (lately, mainly with R)
+- Machine Learning
+- Software development (R & Python)
 - Data visualization
-- Risk models for chronic diseases
 - Travelling home to Greece (I promise to keep biking to work till zero-emission 
   planes are here)
 - Goofing around with my son
