@@ -44,14 +44,14 @@ user_groups:
 Hi there, 
 
 I am Maria and I am passionate about machine learning and building data 
-analysis tools. I am based in Helsinki, Finland, and I work in 
+analysis tools. I am based in Helsinki, Finland, and I work at 
 [Unikie](http://unikie.com/), a deep tech company 
 that offers solutions to industries such as automotive and heavy machinery or
 telecommunications and mobile.
  
-In the past, I have done research in the university in various fields, ranging 
-from in silico experiments of protein dynamics, to quantitative linguistics and 
-NLP, to preseismic electromagnetics. 
+In the past, I have done research in academia in various fields, ranging 
+from *in silico* experiments of protein dynamics, through quantitative 
+linguistics and NLP, to preseismic electromagnetics. 
 
 I built this website using the [blogdown](https://github.com/rstudio/blogdown) 
 R package and [Hugo](https://gohugo.io), and in the photo on the left I am 
