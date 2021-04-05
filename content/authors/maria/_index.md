@@ -5,8 +5,8 @@ interests:
 - Machine Learning
 - Software development (R & Python)
 - Data visualization
-- Travelling home to Greece (I promise to keep biking to work till zero-emission 
-  planes are here)
+- Traveling home to Greece (I promise to keep biking to work till zero-emission planes
+  are here)
 - Goofing around with my son
 education:
   courses:
@@ -21,9 +21,9 @@ education:
     year: 2009
 email: "mkalime@gmail.com"
 organizations:
-- name: "@ Nightingale Health"
-  url: "https://nightingalehealth.com/"
-role: Senior Data Scientist
+- name: '@ Unikie'
+  url: http://unikie.com/
+role: Data Scientist
 social:
 - icon: envelope
   icon_pack: fas
@@ -43,15 +43,15 @@ user_groups:
 
 Hi there, 
 
-I am Maria and I am passionate about building data analysis tools. I am based in 
-Helsinki, Finland, and I work in 
-[Nightingale Health](https://nightingalehealth.com/), a biotech company 
-specializing in blood biomarker analysis.
+I am Maria and I am passionate about machine learning and building data 
+analysis tools. I am based in Helsinki, Finland, and I work in 
+[Unikie](http://unikie.com/), a deep tech company 
+that offers solutions to industries such as automotive and heavy machinery or
+telecommunications and mobile.
  
-In the past, I have done research in the fields of protein dynamics, 
-quantitative linguistics and preseismic electromagnetics. These fields may sound
-diverse but they do share common challenges, at least from the computational 
-point of view.
+In the past, I have done research in the university in various fields, ranging 
+from in silico experiments of protein dynamics, to quantitative linguistics and 
+NLP, to preseismic electromagnetics. 
 
 I built this website using the [blogdown](https://github.com/rstudio/blogdown) 
 R package and [Hugo](https://gohugo.io), and in the photo on the left I am 
