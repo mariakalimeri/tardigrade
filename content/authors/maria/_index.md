@@ -45,9 +45,7 @@ Hi there,
 
 I am Maria and I am passionate about machine learning and building data 
 analysis tools. I am based in Helsinki, Finland, and I work at 
-[Unikie](http://unikie.com/), a deep tech company 
-that offers solutions to industries such as automotive and heavy machinery or
-telecommunications and mobile.
+[Elisa](https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894), a Finnish telecommunications company.
  
 In the past, I have done research in academia in various fields, ranging 
 from *in silico* experiments of protein dynamics, through quantitative 

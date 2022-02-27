@@ -19,11 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Data scientist"
+  company = "Elisa Oyj."
+  company_url = "https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894"
+  location = "Helsinki, Finland"
+  date_start = "2022-02-14"
+  date_end = ""
+  description = """Machine Learning, data mining, software development."""
+  
+[[experience]]
+  title = "Data scientist"
   company = "Unikie Ltd."
   company_url = "https://unikie.com/"
   location = "Helsinki, Finland"
   date_start = "2021-03-22"
-  date_end = ""
+  date_end = "2022-02-11"
   description = """Machine Learning, data mining, software development."""
 
 [[experience]]
