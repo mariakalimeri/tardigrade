@@ -21,8 +21,8 @@ education:
     year: 2009
 email: "mkalime@gmail.com"
 organizations:
-- name: '@ Unikie'
-  url: http://unikie.com/
+- name: '@ Elisa'
+  url: https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894
 role: Data Scientist
 social:
 - icon: envelope
