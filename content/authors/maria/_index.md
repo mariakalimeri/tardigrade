@@ -7,7 +7,7 @@ interests:
 - Data visualization
 - Traveling home to Greece (I promise to keep biking to work till zero-emission planes
   are here)
-- Goofing around with my son
+- Goofing around with my sons
 education:
   courses:
   - course: PhD in Computational Biophysics
