@@ -3,11 +3,11 @@ authors:
 - maria
 interests:
 - Machine Learning
-- Software development (R & Python)
-- Data visualization
+- Software development (Python & R)
 - Traveling home to Greece (I promise to keep biking to work till zero-emission planes
   are here)
 - Goofing around with my sons
+- Mountain hiking, skating on natural ice, playing tennis, windsurfing
 education:
   courses:
   - course: PhD in Computational Biophysics
