@@ -7,7 +7,7 @@ interests:
 - Traveling home to Greece (I promise to keep biking to work till zero-emission planes
   are here)
 - Goofing around with my sons
-- Mountain hiking, skating on natural ice, playing tennis, windsurfing
+- Mountain hiking, tour skating, playing tennis, windsurfing
 education:
   courses:
   - course: PhD in Computational Biophysics
