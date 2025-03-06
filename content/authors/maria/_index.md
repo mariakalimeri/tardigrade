@@ -23,7 +23,7 @@ email: "mkalime@gmail.com"
 organizations:
 - name: '@ Elisa'
   url: https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894
-role: Data Scientist
+role: Machine Learning Engineer
 social:
 - icon: envelope
   icon_pack: fas
