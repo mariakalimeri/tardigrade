@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Data scientist"
+  title = "Machine Learning Engineer"
   company = "Elisa Oyj."
   company_url = "https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894"
   location = "Helsinki, Finland"
@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """Machine Learning, data mining, software development."""
   
 [[experience]]
-  title = "Data scientist"
+  title = "Data Scientist"
   company = "Unikie Ltd."
   company_url = "https://unikie.com/"
   location = "Helsinki, Finland"
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   description = """Machine Learning, data mining, software development."""
 
 [[experience]]
-  title = "Senior data scientist"
+  title = "Senior Data Scientist"
   company = "Nightingale Health Plc."
   company_url = "https://nightingalehealth.com/"
   location = "Helsinki, Finland"
@@ -45,7 +45,7 @@ date_format = "Jan 2006"
   description = """Risk prediction and data mining in metabolomics and computational medicine."""
 
 [[experience]]
-  title = "Post-doctoral researcher"
+  title = "Post-doctoral Researcher"
   company = "Tampere University of Technology (Currently TAMK)"
   company_url = "https://www.tuni.fi/en/about-us/tamk"
   location = "Tampere, Finland"
