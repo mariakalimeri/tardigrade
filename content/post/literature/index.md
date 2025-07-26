@@ -7,7 +7,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-readingtime: "30"
+readingtime: 30
 tags:
 - literature
 - old times
