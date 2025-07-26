@@ -2,7 +2,7 @@
 authors:
 - maria
 interests:
-- Machine Learning
+- AI & Machine Learning
 - Software development (Python & R)
 - Traveling home to Greece (I promise to keep biking to work till zero-emission planes
   are here)
