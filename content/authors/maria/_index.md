@@ -43,7 +43,7 @@ user_groups:
 
 Hi there, 
 
-I am Maria and I am passionate about AI, machine learning, and building data 
+I am Maria and I am passionate about AI, Machine Learning, and building data 
 analysis tools. I am based in Helsinki, Finland, and I work at 
 [Elisa](https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894), a Finnish telecommunications company.
  
