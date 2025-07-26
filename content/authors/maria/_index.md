@@ -41,16 +41,12 @@ user_groups:
 - Visitors
 ---
 
-Hi there, 
+Hi there,
 
-I am Maria and I am passionate about AI, Machine Learning, and building data 
-analysis tools. I am based in Helsinki, Finland, and I work at 
-[Elisa](https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894), a Finnish telecommunications company.
+I'm Maria, and I'm passionate about AI, machine learning, and building data analysis tools. I'm based in Helsinki, Finland, and I work at [Elisa](https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894), a Finnish telecommunications company.
  
-In the past, I have done research in academia in various fields, ranging 
-from *in silico* experiments of protein dynamics, through quantitative 
-linguistics and NLP, to preseismic electromagnetics. 
+In the past, I’ve conducted academic research in various fields, ranging from *in silico* experiments on protein dynamics, to quantitative linguistics, NLP, and preseismic electromagnetics.
 
 I built this website using the [blogdown](https://github.com/rstudio/blogdown) 
-R package and [Hugo](https://gohugo.io), and in the photo on the left I am 
+R package and [Hugo](https://gohugo.io). In the photo on the left, I am 
 sitting in a forest somewhere in central Finland. 
