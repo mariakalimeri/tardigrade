@@ -13,7 +13,7 @@ tags:
 - old times
 title: "Λίγη λογοτεχνία"
 subtitle: "... από τα παλιά"
-summary: "And how it is to work for a vibrant, scale up company."
+summary: "... από τα παλιά"
 ---
 
 Ανατρέχοντας και σκαλίζοντας νοσταλγικά τα blog του πολυαγαπημένου μου καθηγητή
