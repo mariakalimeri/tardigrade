@@ -5,14 +5,14 @@ name = "tardigrade"
 light = true
 
 # Primary
-primary = "#759eb8"
+primary = "#2A9D8F"
 
 # Menu
-menu_primary = "#151a1e"
+menu_primary = "#2d3436"
 menu_text = "#ffffff"
-menu_text_active = "#ffffff"
+menu_text_active = "#2A9D8F"
 menu_title = "#fff"
 
 # Home sections
-home_section_odd = "#FFF"
-home_section_even = "#eef3f6"
+home_section_odd = "#FAF9F6"
+home_section_even = "#F0F5F4"
