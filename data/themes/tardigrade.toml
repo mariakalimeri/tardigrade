@@ -5,7 +5,7 @@ name = "tardigrade"
 light = true
 
 # Primary
-primary = "#2A9D8F"
+primary = "#759eb8"
 
 # Menu
 menu_primary = "#151a1e"
