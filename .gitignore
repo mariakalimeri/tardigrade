@@ -4,3 +4,5 @@
 .Ruserdata
 public/
 .DS_Store
+resources/_gen/
+themes/hugo-academic/exampleSite/
