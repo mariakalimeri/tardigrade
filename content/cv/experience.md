@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Machine Learning Engineer"
+  title = "Senior AI/ML Engineer"
   company = "Elisa Oyj."
   company_url = "https://elisa.com/corporate/?_ga=2.187510955.2038295084.1645975413-1291628732.1640767894"
   location = "Helsinki, Finland"
@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """Machine Learning, data mining, software development."""
   
 [[experience]]
-  title = "Data Scientist"
+  title = "Full Stack Data Scientist"
   company = "Unikie Ltd."
   company_url = "https://unikie.com/"
   location = "Helsinki, Finland"
