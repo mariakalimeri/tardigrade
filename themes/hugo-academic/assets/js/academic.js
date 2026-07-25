@@ -698,16 +698,34 @@
     $('.js-cite-modal').click(function (e) {
       e.preventDefault();
       let filename = ($(this).attr('data-filename') || '').trim();
-      // Only allow safe relative paths for citation files.
-      // Disallow executable/opaque schemes and protocol-relative URLs.
-      let is_safe_filename = filename !== '' &&
-        !/^(?:[a-zA-Z][a-zA-Z0-9+.-]*:|\/\/)/.test(filename) &&
-        /^[./\w-]+$/.test(filename);
-      if (!is_safe_filename) {
+      let safe_filename = '';
+      try {
+        // Canonicalize against current origin and enforce same-origin relative path.
+        let url = new URL(filename, window.location.origin);
+        let decoded = decodeURIComponent(url.pathname);
+        let has_encoded_traversal = /%2e|%2f|%5c/i.test(filename);
+        let has_path_traversal = /(^|\/)\.\.(\/|$)/.test(decoded);
+        let has_backslash = /\\/.test(decoded);
+        let has_allowed_extension = /\.(?:bib|txt)$/i.test(decoded);
+
+        if (filename !== '' &&
+            url.origin === window.location.origin &&
+            decoded.charAt(0) === '/' &&
+            !has_encoded_traversal &&
+            !has_path_traversal &&
+            !has_backslash &&
+            has_allowed_extension) {
+          safe_filename = decoded.replace(/^\/+/, '');
+        }
+      } catch (err) {
+        safe_filename = '';
+      }
+
+      if (!safe_filename) {
         console.log('Error: invalid citation filename.');
         return false;
       }
-      let safe_filename = filename.replace(/^\.\//, '');
+
       let modal = $('#modal');
       modal.find('.modal-body code').load(safe_filename, function (response, status, xhr) {
         if (status == 'error') {
