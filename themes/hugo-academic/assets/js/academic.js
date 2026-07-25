@@ -707,13 +707,17 @@
         console.log('Error: invalid citation filename.');
         return false;
       }
+      let safe_filename = filename.replace(/^\.\//, '');
       let modal = $('#modal');
-      modal.find('.modal-body code').load(filename, function (response, status, xhr) {
+      modal.find('.modal-body code').load(safe_filename, function (response, status, xhr) {
         if (status == 'error') {
           let msg = "Error: ";
           $('#modal-error').html(msg + xhr.status + " " + xhr.statusText);
         } else {
-          $('.js-download-cite').attr('href', filename);
+          let download_link = document.querySelector('.js-download-cite');
+          if (download_link) {
+            download_link.setAttribute('href', safe_filename);
+          }
         }
       });
       modal.modal('show');
