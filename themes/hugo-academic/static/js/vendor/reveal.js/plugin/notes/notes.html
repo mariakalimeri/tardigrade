@@ -367,10 +367,20 @@
 
     window.addEventListener( 'message', function( event ) {
 
+      if( event.source !== window.opener ) {
+        return;
+      }
+
       clearTimeout( connectionTimeout );
       connectionStatus.style.display = 'none';
 
-      var data = JSON.parse( event.data );
+      var data;
+      try {
+        data = JSON.parse( event.data );
+      }
+      catch( e ) {
+        return;
+      }
 
       // The overview mode is only useful to the reveal.js instance
       // where navigation occurs so we don't sync it
@@ -500,7 +510,27 @@
     /**
      * Creates the preview iframes.
      */
+    function sanitizePresentationUrl( rawUrl ) {
+
+      try {
+        var parsedUrl = new URL( rawUrl, window.location.href );
+        if( parsedUrl.protocol !== 'http:' && parsedUrl.protocol !== 'https:' ) {
+          return null;
+        }
+        return parsedUrl.href;
+      }
+      catch( e ) {
+        return null;
+      }
+
+    }
+
     function setupIframes( data ) {
+
+      var safeBaseUrl = sanitizePresentationUrl( data.url );
+      if( !safeBaseUrl ) {
+        return;
+      }
 
       var params = [
         'receiver',
@@ -511,10 +541,10 @@
         'backgroundTransition=none'
       ].join( '&' );
 
-      var urlSeparator = /\?/.test(data.url) ? '&' : '?';
+      var urlSeparator = /\?/.test( safeBaseUrl ) ? '&' : '?';
       var hash = '#/' + data.state.indexh + '/' + data.state.indexv;
-      var currentURL = data.url + urlSeparator + params + '&postMessageEvents=true' + hash;
-      var upcomingURL = data.url + urlSeparator + params + '&controls=false' + hash;
+      var currentURL = safeBaseUrl + urlSeparator + params + '&postMessageEvents=true' + hash;
+      var upcomingURL = safeBaseUrl + urlSeparator + params + '&controls=false' + hash;
 
       currentSlide = document.createElement( 'iframe' );
       currentSlide.setAttribute( 'width', 1280 );
