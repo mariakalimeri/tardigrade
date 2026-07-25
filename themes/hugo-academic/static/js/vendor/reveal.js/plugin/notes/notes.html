@@ -385,8 +385,13 @@
           handleStateMessage( data );
         }
         else if( data.type === 'return' ) {
-          pendingCalls[data.callId](data.result);
-          delete pendingCalls[data.callId];
+          if( Object.prototype.hasOwnProperty.call( pendingCalls, data.callId ) ) {
+            var pendingCall = pendingCalls[data.callId];
+            if( typeof pendingCall === 'function' ) {
+              pendingCall( data.result );
+              delete pendingCalls[data.callId];
+            }
+          }
         }
       }
       // Messages sent by the reveal.js inside of the current slide preview
