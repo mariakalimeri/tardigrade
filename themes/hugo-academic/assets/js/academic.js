@@ -697,7 +697,16 @@
     // Load citation modal on 'Cite' click.
     $('.js-cite-modal').click(function (e) {
       e.preventDefault();
-      let filename = $(this).attr('data-filename');
+      let filename = ($(this).attr('data-filename') || '').trim();
+      // Only allow safe relative paths for citation files.
+      // Disallow executable/opaque schemes and protocol-relative URLs.
+      let is_safe_filename = filename !== '' &&
+        !/^(?:[a-zA-Z][a-zA-Z0-9+.-]*:|\/\/)/.test(filename) &&
+        /^[./\w-]+$/.test(filename);
+      if (!is_safe_filename) {
+        console.log('Error: invalid citation filename.');
+        return false;
+      }
       let modal = $('#modal');
       modal.find('.modal-body code').load(filename, function (response, status, xhr) {
         if (status == 'error') {
