@@ -18,14 +18,7 @@
         {{ $v := $js.highlight.version }}
         {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.highlight.url $v) $js.highlight.sri | safeHTML }}
         {{ range site.Params.highlight_languages }}
-          {{ $lang_url := printf "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/languages/%s.min.js" $v . }}
-          {{ with resources.GetRemote $lang_url }}
-            {{ if .Err }}
-            {{ else }}
-              {{ $lang_js := . | fingerprint "sha256" }}
-              <script src="{{ $lang_js.RelPermalink }}" integrity="{{ $lang_js.Data.Integrity }}"></script>
-            {{ end }}
-          {{ end }}
+        {{ printf "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/languages/%s.min.js\" crossorigin=\"anonymous\"></script>" $v . | safeHTML }}
         {{ end }}
       {{ end }}
 
