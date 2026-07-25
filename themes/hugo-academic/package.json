@@ -4,7 +4,7 @@
   "description": "The Page Builder for Hugo",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^5.0.0"
+    "bootstrap": "^5.3.8"
   },
   "devDependencies": {},
   "scripts": {
